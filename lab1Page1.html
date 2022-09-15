@@ -7,11 +7,12 @@
 <body onload="startTimer()">
 <h1>You'll go to the next page in <span id="timer"></span></h1>
 <script>
-    localStorage.setItem("time", "5");
+    const seconds = "5"
+    localStorage.setItem("time", seconds);
 
     setTimeout(function(){
         window.location.href = 'lab1Page2.html';
-    }, 5000);
+    }, Number(seconds)*1000);
 
     function startTimer(){
         const time = localStorage.getItem("time");
