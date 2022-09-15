@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>labs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+<div id="lab-container">
+<!--    lab1-->
+    <div class="lab" id="lab1">
+        <a href="lab1Page1.html"><h2>lab1</h2></a>
+        <i class="fa-solid fa-eye-slash eye" id="eye1" onclick="showHide(this.id)"></i>
+        <article id="eye1-article" style="display: none">
+            <h2>Лабораторная работа №1 (HTML).</h2>
+            <p>Реализовать макет web-сайта, состоящего минимум из трёх страниц, где:</p>
+            <ul>
+                <li><p>Первая страница содержит только автоматическую переадресацию
+                    (включая небольшое текстовое пояснение об этом) на вторую страницу с небольшой задержкой (например, 5 секунд)</p></li>
+                <li><p>Вторая страница содержит заголовок, текст, картинку и ссылку на третью страницу</p></li>
+                <li>
+                    <p>Третья страница содержит три фрейма (рис.1):</p>
+                    <ul>
+                        <li><p>Фрейм 1 содержит заголовок</p></li>
+                        <li><p>Фрейм 2 содержит список ссылок (~оглавление)</p></li>
+                        <li><p>Во фрейме 3 отображаются разные тексты в зависимости от выбранной ссылки.</p></li>
+                    </ul>
+                </li>
+            </ul>
+        </article>
+    </div>
+<!--    lab2-->
+    <div class="lab" id="lab2">
+        <a href=""><h2>lab2</h2></a>
+        <i class="fa-solid fa-eye-slash eye" id="eye2" onclick="showHide(this.id)"></i>
+        <article id="eye2-article" style="display: none">
+            <h2>Лабораторная работа №2 (CSS).</h2>
+            <p>Реализовать макет web-сайта, состоящего минимум из трёх страниц, где используются все три способа применения таблиц стилей к документу HTML:</p>
+            <ul>
+                <li>Встраивание (Inline).</li>
+                <li>Внедрение (Embedded). </li>
+                <li>Связывание (Linked или External).</li>
+            </ul>
+            <ul>
+                <li>Продемонстрировать каскадирование (накладывание правил таблиц стилей друг на друга в соответствии с приоритетом).</li>
+                <li>Продемонстрировать применение таблиц стилей к селекторам (объектам разметки) с помощью классов.</li>
+                <li>Продемонстрировать применение таблиц стилей к селекторам (объектам разметки) с помощью идентификаторов.</li>
+            </ul>
+        </article>
+    </div>
+</div>
+<script src="labs.js"></script>
+</body>
+</html>

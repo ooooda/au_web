@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+</head>
+<body onload="startTimer()">
+<h1>You'll go to the next page in <span id="timer"></span></h1>
+<script>
+    localStorage.setItem("time", "5");
+
+    setTimeout(function(){
+        window.location.href = 'lab1Page2.html';
+    }, 5000);
+
+    function startTimer(){
+        const time = localStorage.getItem("time");
+        document.getElementById('timer').innerHTML = time.toString();
+        localStorage.setItem("time", (time - 1).toString());
+        setTimeout(startTimer, 1000);
+    }
+
+</script>
+</body>
+</html>
