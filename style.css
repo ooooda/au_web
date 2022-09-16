@@ -1,0 +1,118 @@
+.lab {
+    border: 2px solid midnightblue;
+    margin: 10px auto;
+    width: 600px;
+    color: darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page2, main {
+    border: 2px solid midnightblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    width: 600px;
+    color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#page2, main #header, #info {
+    text-align: center;
+}
+
+main p, main button {
+    display: inline;
+}
+
+main button {
+    background-color: darkslateblue; /* Green */
+    border: none;
+    color: aliceblue;
+    margin: 0 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 12px;
+}
+
+main button:hover {
+    box-shadow: 0 5px 5px 0 lightslategrey;
+    cursor: pointer;
+}
+
+main li {
+    margin: 20px auto;
+}
+
+main p, main button {
+    padding: 0 20px;
+}
+
+.lab h2:not(.lab article h2), .lab i {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+}
+
+.lab h2:not(.lab article h2) {
+    float:left;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.lab i {
+    margin-left: 30em;
+}
+
+.lab a, #page2 a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+.lab a:link, #page2 a:link {
+    color: darkslateblue;
+}
+
+.lab a:visited, #page2 a:visited {
+    color: darkslateblue;
+}
+
+.lab a:hover, #page2 a:hover {
+    color: darkslateblue;
+}
+
+/* when clicked */
+.lab a:active, #page2 a:active {
+    color: darkslateblue;
+}
+
+.lab article {
+    display: block;
+    float: bottom;
+}
+
+.lab article {
+    text-align: justify-all;
+    padding: 20px;
+    overflow: visible;
+    background-color: slategrey;
+    color: aliceblue;
+}
+
+#page2 img {
+    max-width: 100%;
+    height:auto;
+    margin: 20px auto;
+}
+
+#page2 h1 {
+    text-shadow: 3px 3px 3px lightslategrey;
+}
+
+#page2 img:hover {
+    opacity: 50%;
+}
