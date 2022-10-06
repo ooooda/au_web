@@ -1,0 +1,42 @@
+main, .field {
+    padding-top: 0;
+    border: 2px solid midnightblue;
+    margin: auto;
+    width: 600px;
+    color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.field {
+    margin-top: 100px;
+    height: 800px;
+}
+
+#tip-of-the-day {
+    background-color: darkslateblue;
+    border: none;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+}
+
+.text-of-tip {
+    margin: 40px auto;
+    width: 568px;
+    text-align: center;
+    height: 20px;
+    color: darkslateblue;
+}
+
+span {
+    width: max-content;
+    position: absolute;
+}
