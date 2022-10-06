@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 2</title>
+    <link rel="stylesheet" href="lab2.css">
+    <style>
+        #example2 {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+<header>
+  <h1>Embedded CSS</h1>
+    <div id="menu">
+        <button id="lab2-page1" onclick="window.location.href ='lab2Page1.html'">page 1</button>
+        <button id="lab2-page2" onclick="window.location.href ='lab2Page2.html'">page 2</button>
+        <button id="lab2-page3" onclick="window.location.href ='lab2Page3.html'">page 3</button>
+    </div>
+</header>
+<main>
+<p class="test style-button2-test green">
+    &ltstyle&gt
+    <span class="blocks tab1">
+        #example2 {
+    </span>
+    <span class="blocks tab2">
+            color: green;
+    </span>
+    <span class="blocks tab1">
+        }
+    </span>
+    &lt/style&gt
+</p>
+<p class="example style-button2-example" id="example2">Hello, this is text</p>
+<button class="style-button" id="style-button2" value="1">style</button>
+<script src="lab2.js"></script>
+</main>
+</body>
+</html>
